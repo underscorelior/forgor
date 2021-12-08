@@ -1,0 +1,45 @@
+body {
+	text-decoration: none;
+	background-color: aliceblue;
+}
+@keyframes slideup {
+	0% {
+		transform: translateY(50px);
+	}
+	to {
+		transform: translateY(0px);
+	}
+}
+#buttonGen{
+  font-size: 25px;
+  margin: auto; 
+  width: 50%;
+  padding: 10px;
+  margin-top: 1px;
+  text-align: center;
+  -webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	 -khtml-user-select: none; /* Konqueror HTML */
+	   -moz-user-select: none; /* Old versions of Firefox */
+		-ms-user-select: none; /* Internet Explorer/Edge */
+			user-select: none;
+  font-family: Montserrat;
+  cursor: pointer;
+  border: 0.5px solid black;
+  display: grid;
+  grid-template-rows: 90% auto;
+  margin: auto;
+  animation: fade 5s ease 0s 1 normal, slideup 0.1s ease 0s 1 normal;
+}
+
+#buttonGen:hover {
+  background-color: #d7dfe6;
+}
+
+#text {
+	font-family: 'Roboto';
+	font-weight: normal;
+	vertical-align: baseline;
+	text-align: center;
+	font-size: 100px;
+}
