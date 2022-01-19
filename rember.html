@@ -16,10 +16,11 @@
 	<meta property="og:url" content=" https://i.underscore.wtf/rember.html">
 </head>
 <body>
+	<audio id="sound1" src="boom.mp3" preload="auto"></audio>
 	<h1 id="text">i rember 😃</h1>
 	<div id="genContainer" >
 		<a href="./forgor.html">
-			<button id = "buttonGen">i forgor 💀</button>
+			<button id = "buttonGen" onclick="document.getElementById('sound1').play();" >i forgor 💀</button>
 		</a>
 	</div>
 </body>
